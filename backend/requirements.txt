@@ -1,1 +1,6 @@
 Flask
+python-amazon-paapi
+pytest # Add pytest for running tests
+pytest-mock # Add pytest-mock for mocking dependencies
+python-dotenv # Add python-dotenv for loading .env files
+Flask-CORS # Add Flask-CORS for handling Cross-Origin Resource Sharing

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+// import "./globals.css"; // Temporarily comment out CSS import
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,9 +24,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      {/* Temporarily remove font variables from className */}
+      <body className="antialiased">
         {children}
       </body>
     </html>

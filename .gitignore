@@ -58,3 +58,6 @@ coverage/
 *.njsproj
 *.sln
 *.sw?
+
+# Environment variables
+backend/.env
