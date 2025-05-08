@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
-# Import the amazon service module (changed to relative import)
+# Import the amazon service module (changed to relative for testing)
 from . import amazon_service
 
 app = Flask(__name__)
